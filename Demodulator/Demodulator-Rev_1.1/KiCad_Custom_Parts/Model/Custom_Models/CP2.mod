@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  19/06/2015 21:27:56
+# encoding utf-8
+Units mm
+$INDEX
+CP2
+$EndINDEX
+$MODULE CP2
+Po 0 0 0 15 555268AA 00000000 ~~
+Li CP2
+Cd Polarized Capacitor
+Kw CP2
+Sc 0
+AR /55524E79
+Op 0 0 0
+T0 0 2.286 1.016 1.016 0 0.2032 N V 21 N "C4"
+T1 0 -2.286 1.016 1.016 0 0.2032 N V 21 N "1uF"
+T2 -3.429 -0.127 1.524 1.524 900 0.3048 N V 21 N "+"
+DC 0 0 0 4.445 0.381 21
+$PAD
+Sh "1" R 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "+15V"
+Po -1.905 0
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 1.905 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_vert_c1v8.wrl"
+Sc 1.5 1.5 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE CP2
+$EndLIBRARY
