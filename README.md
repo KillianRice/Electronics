@@ -1,3 +1,3 @@
 # Electronics
 
-Electronics schematics and PCB layouts.
+Electronic schematics and PCB layouts.
